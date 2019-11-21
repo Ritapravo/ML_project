@@ -24,7 +24,7 @@ def load_image(img_path, show=True):
     if pred<.5 : print("Cat")
     else : print("Dog")'''
 
-new_image = load_image(r"H:\dog1.jpg")
+new_image = load_image(r"image_path.jpg")
 pred= classifier.predict(new_image)
 
 if pred<.5 : print("Cat")
